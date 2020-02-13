@@ -1,0 +1,9 @@
+com\dbobr\controller\WeatherController.class
+com\dbobr\domain\Wind.class
+com\dbobr\domain\Weather.class
+com\dbobr\domain\WeatherData.class
+com\dbobr\WeatherApp.class
+com\dbobr\domain\CountryInfo.class
+com\dbobr\service\WeatherService.class
+com\dbobr\domain\Coordinate.class
+com\dbobr\domain\Rain.class
