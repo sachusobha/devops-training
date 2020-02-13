@@ -4,6 +4,17 @@ pipeline {
         stage('Build') {
             steps {
                echo 'This is a minimal pipeline.'
+               mvn clean install
+            }
+        }
+        stage('Test') {
+            steps {
+               echo 'This is a minimal pipeline.'
+            }
+        }
+        stage('Deploy') {
+            steps {
+               echo 'This is a minimal pipeline.'
             }
         }
     }
